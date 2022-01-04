@@ -1,0 +1,86 @@
+body{
+    background-color: #98ddca;
+    height: 100vh;
+    margin: 0;
+    .diario{
+        width: 50%;
+        border: 1px solid black;
+        margin: auto;
+        background-color: #f6f6f6;
+        padding: 20px;
+        text-align: center;
+        .titulares{
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            header{
+                font-size: 70px;
+                font-family: "Fondamento", cursive;
+            }
+            span{
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+                display: flex;
+                justify-content: space-between;
+                margin: 15px 0px;
+                p{
+                    margin: 5px;
+                    font-size: 25px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 150;
+                }
+            }
+            h1{
+                // height: 50px; 
+                width: auto;
+                font-weight: bold;
+                font-size: 60px;
+                margin: 0%;
+                padding: 0%;
+                font-family: 'Roboto', sans-serif;
+                letter-spacing: 7px;
+            }
+        }
+        .noticia{
+            display: flex;
+            justify-content: space-between;
+            .textoizquierdo{
+                display: flex;
+                flex-direction: column;
+                margin: 0px 20px;
+                // width: 50%;
+                h2{
+                    font-size: 40px;
+                    border-top: 2px solid black;
+                    border-bottom: 2px solid black;
+                    margin: 4px 0 0;
+                    font-family: 'Roboto Condensed', sans-serif;
+                    letter-spacing: 2px;
+                }
+                .textos{
+                    display: flex;
+                    blockquote{
+                        width: 50%;
+                        margin: 10px;
+                        text-align: left;
+                        font-family: "Roboto Condensed";
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .foto{
+                margin-right: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                p{
+                    font-family: "Roboto Condensed";
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

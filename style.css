@@ -1,0 +1,127 @@
+body {
+  background-color: #98ddca;
+  height: 100vh;
+  margin: 0;
+}
+
+body .diario {
+  width: 50%;
+  border: 1px solid black;
+  margin: auto;
+  background-color: #f6f6f6;
+  padding: 20px;
+  text-align: center;
+}
+
+body .diario .titulares {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .diario .titulares header {
+  font-size: 70px;
+  font-family: "Fondamento", cursive;
+}
+
+body .diario .titulares span {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0px;
+}
+
+body .diario .titulares span p {
+  margin: 5px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 150;
+}
+
+body .diario .titulares h1 {
+  width: auto;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 7px;
+}
+
+body .diario .noticia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .diario .noticia .textoizquierdo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 20px;
+}
+
+body .diario .noticia .textoizquierdo h2 {
+  font-size: 40px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 4px 0 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+body .diario .noticia .textoizquierdo .textos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .diario .noticia .textoizquierdo .textos blockquote {
+  width: 50%;
+  margin: 10px;
+  text-align: left;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+body .diario .noticia .foto {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .diario .noticia .foto p {
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
